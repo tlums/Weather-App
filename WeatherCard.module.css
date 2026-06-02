@@ -1,0 +1,46 @@
+.card {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: white;
+  background: transparent;
+}
+
+.temp {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.description {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.7);
+  text-transform: capitalize;
+  margin-top: 4px;
+}
+
+.location {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 2px;
+}
+
+.stat-value {
+  font-size: 1rem;
+  font-weight: 500;
+}

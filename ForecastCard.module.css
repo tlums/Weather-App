@@ -1,0 +1,22 @@
+.card {
+    padding: 1rem;
+  text-align: center;
+  color: white;
+  background: transparent;
+}
+
+.day {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 4px;
+}
+
+.high {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.low {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.7);
+}

@@ -1,0 +1,85 @@
+/* overall page */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+/* fullscreen background that holds the plasma wave */
+.background {
+  position: fixed;   /* stays in place even when you scroll */
+  inset: 0;          /* shorthand for top/right/bottom/left: 0 */
+  z-index: 0;        /* sits behind everything else */
+}
+
+/* scrollable content layer that sits on top of the background */
+.content {
+  position: relative;
+  z-index: 1;        /* sits above the background */
+  padding: 2rem;
+}
+
+/* main container — centers everything on the page */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-size: 3.5rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  color: rgb(247, 12, 228);
+  margin-bottom: 10px;
+  font-family: "Luckiest Guy", cursive; /* use the Google Font */
+  letter-spacing: 0.05em; /* Luckiest Guy looks good with a little extra spacing */
+  text-align: center;
+}
+
+/* search bar row */
+.search-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  padding: 0.75rem;
+}
+
+.search-row input {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1px;
+  background: rgba(7, 6, 6, 0.817); /* semi-transparent so the wave shows through */
+  color: white;
+  outline: none;
+}
+
+.search-row input::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+
+.search-row button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: rgba(62, 59, 62, 0.53);
+  color: white;
+  border: 1px solid rgb(247, 7, 211);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-row button:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+.error {
+  color: #fca5a5;
+  margin-bottom: 1rem;
+}
